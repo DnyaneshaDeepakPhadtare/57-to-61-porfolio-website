@@ -1,0 +1,154 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#profile {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+#welcome {
+    background: linear-gradient(#0e2feb 0%, #eb0e0e 100%);
+    text-align: center;
+    z-index: 1;
+}
+
+
+.line {
+    height: 6px;
+    width: 200px;
+    background-color: black;
+    margin: 2px auto;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    width: 100%;
+    cursor: pointer;
+    z-index: 2;
+    width: 100%;
+    height: 45px;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.link {
+    display: inline;
+    color: cornsilk;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: cursive;
+    font-size: 25px;
+    border-right: 2px solid white;
+    text-align: center;
+}
+
+.links:hover {
+    background-color: blanchedalmond;
+    text-decoration: underline;
+
+}
+
+h2 {
+    font-family: 'Architects Daughter', cursive;
+}
+
+#hobbyname {
+    font-family: 'Lemonada', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+    text-shadow: 2px 2px gainsboro;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: darkmagenta !important;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+#contact {
+    background-color: crimson;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    transition: transform 2s;
+    border: 2px solid #8f188b;
+    }
+img:hover{
+    transform: scale(0.9);
+   }
+
+
+.heading {
+    font-size: 60px;
+    font-family: 'Architects Daughter', cursive;
+    margin-top: 25px;
+}
+
+.para {
+    font-size: 25px;
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+#booklink {
+    font-size: 30px;
+}
+
+#buttondance {
+    font-size: 30px;
+    margin-top: 25px;
+    background-color: coral;
+    width: 400px;
+    height: 80px;
+} 
+#mywork a{
+    color: darkred !important;
+}
+#myinspiration {
+    background-color: darksalmon;
+}
+
+#mywork {
+    background-color: beige;
+    height: 500px;
+}
+#myhobby{
+    background-color: aquamarine;
+    }
+#bio{
+    background-color: darksalmon;
+}
